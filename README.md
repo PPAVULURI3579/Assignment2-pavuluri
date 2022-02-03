@@ -47,3 +47,9 @@ Football   | chennai stadium |$ 180
 cricket    | uppal stadium   |$ 150
 Baseball   | shivaji stadium |$ 100
 ---
+
+# Pithy Quotes
+> “What's really important here," I whispered loudly to myself,"is not the big things other people have thought up, but the small things you, yourself have”
+> ― Haruki Murakami, Sputnik Sweetheart
+> “Mathematicians deal with large numbers sometimes, but never in their income.”
+> ― Isaac Asimov, Prelude to Foundation
