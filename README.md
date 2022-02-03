@@ -54,3 +54,24 @@ Baseball   | shivaji stadium |$ 100
 
 > “Mathematicians deal with large numbers sometimes, but never in their income.”
 > ― Isaac Asimov, Prelude to Foundation
+
+---
+# Code Fencing
+
+You are given two numbers  and . Find the largest power of   such that  is divisible by Prime Let's first consider the case of prime . The explicit expression for factorial Note that every -th element of the product is divisible by , i.e. adds  to the answer; the number of such elements is Next, every is divisible by , i.e. adds another  to the answer (the first power of  has already been counted in the previous paragraph). The number of such elements is 
+And so on, for every  each element adds another  to the answer, and there are such elements. The final answer. The sum is of course finite, since only approximately the first elements are not zeros. Thus, the runtime of this algorithm is Implementation.
+
+(https://cp-algorithms.com/algebra/factorial-divisors.html)
+
+```
+int fact_pow (int n, int k) {
+    int res = 0;
+    while (n) {
+        n /= k;
+        res += n;
+    }
+    return res;
+}
+```
+
+[wiki](https://cp-algorithms.com/combinatorics/catalan-numbers.html)
